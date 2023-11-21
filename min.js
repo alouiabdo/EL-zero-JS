@@ -518,3 +518,209 @@
 //     money = 0;
 //     console.log(`my money is ${money}`)
 // }
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// var day = "   friday  ";
+// var day = "Friday";
+// var day = "Saturday";
+// var day = "Sunday";
+// var day = "Monday";
+// var day = "Thursday";
+// var day = "Tuesday";
+// var day = "Wednesday";
+// var day = "World";
+// // You Need To Remove Spaces And Make First Letter Capital => Friday
+// switch(day){
+//     case "   friday  ":
+//         document.write(day.trim().slice(0, 1).toUpperCase()+day.trim().slice(1))
+//     break;
+//     case "Friday":
+//     case "Saturday":
+//     case "Sunday":
+//         document.write("No Appointments Available")
+//     break;
+//     case "Monday":
+//     case "Thursday":
+//         document.write("From 10:00 AM To 5:00 PM")
+//     break;
+//     case "Tuesday":
+//         document.write("From 10:00 AM To 6:00 PM")
+//     break;
+//     case "Wednesday":
+//         document.write("From 10:00 AM To 7:00 PM")
+//     break;
+//     case "World":
+//         document.write("Its Not A Valid Day")
+//     break;
+// }
+
+// day = "Friday";
+// day = "Saturday";
+// day = "Sunday";
+// utput => "No Appointments Available"
+// day = "Monday";
+// day = "Thursday";
+// utput => "From 10:00 AM To 5:00 PM"
+// day = "Tuesday";
+// utput => "From 10:00 AM To 6:00 PM"
+// day = "Wednesday";
+// utput => "From 10:00 AM To 7:00 PM"
+// day = "World";
+// utput => "Its Not A Valid Day"
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+// let zero = 0;
+// let counter = 3;
+
+// let my = ["Ahmed", "Mazero", "Elham", "Osama", "Gamal", "Ameer"];
+
+// // console.log(my.slice(0, 4).reverse());
+// // console.log(my.slice(1, 3).reverse());
+// // console.log(my.push("Elzero"));
+// // console.log(my)
+
+// console.log(my[zero+true][counter+true]+my[zero+true][counter+true+true].toUpperCase())
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+// let st = "Elzero Web School";
+
+// if (st[7].toLowerCase() === "w") {
+//     console.log("Good");
+// }
+
+// if (st.length !== "string") {
+//     console.log("Good");
+// }
+
+// if (st !== "number") {
+//     console.log("Good");
+// }
+
+// if (st.slice(0, 6).repeat(2) === "ElzeroElzero") {
+//     console.log("Good");
+//   }
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+// let job = "Manager";
+// let salary = 0;
+
+// if (job === "Manager") {
+// salary = 8000;
+// } else if (job === "IT" || job === "Support") {
+// salary = 6000;
+// } else if (job === "Developer" || job === "Designer") {
+// salary = 7000;
+// } else {
+// salary = 4000;
+// }
+// switch(job){
+//     case "Manager":
+//         console.log(salary = 8000)
+//     break;
+//     case "IT":
+//     case "Support":
+//         console.log(salary = 6000)
+//     break;
+//     case "Developer":
+//     case "Designer":
+//         console.log(salary = 7000)
+//     break;
+//     default:
+//         console.log(salary = 4000)
+//     break;
+// }
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let holidays = 0;
+// let money = 0;
+
+// switch (holidays) {
+//   case 0:
+//     money = 5000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 1:
+//   case 2:
+//     money = 3000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 3:
+//     money = 2000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 4:
+//     money = 1000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 5:
+//     money = 0;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   default:
+//     money = 0;
+//     console.log(`My Money is ${money}`);
+// }
+
+// if(holidays === 0){
+//     money = 5000;
+//     console.log(`My Money is ${money}`);
+// }else if(holidays === 1 || holidays === 2){
+//     money = 3000;
+//     console.log(`My Money is ${money}`);
+// }else if(holidays === 3){
+//     money = 2000;
+//     console.log(`My Money is ${money}`);
+// }else if( holidays === 4){
+//     money = 1000;
+//     console.log(`My Money is ${money}`);
+// }else if(holidaysv === 5){
+//     money = 0;
+//     console.log(`My Money is ${money}`);
+// }else{
+//     money = 0;
+//     console.log(`My Money is ${money}`);
+// }
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
