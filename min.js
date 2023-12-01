@@ -724,3 +724,428 @@
 
 
 
+//let myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
+//let num = 3;
+//let num1 = 0;
+
+// Method 1
+//console.log(myFriends.slice(num1, num)); // ["Ahmed", "Elham", "Osama"];
+
+// Method 2
+//console.log(myFriends.splice(num1, num)); // ["Ahmed", "Elham", "Osama"];
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let friends = ["Ahmed", "Eman", "Osama", "Gamal"];
+
+// // Write Your Code Here
+// friends = friends.splice(1, 2)
+// console.log(friends); // ["Eman", "Osama"]
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let arrOne = ["C", "D", "X"];
+// let arrTwo = ["A", "B", "Z"];
+// let finalArr = [];
+// let me = finalArr.concat(arrTwo[2],arrOne.reverse(),arrTwo[1], arrTwo[0])
+
+// // Write One Single Line Of Code
+
+// console.log(me); // ["Z", "X", "D", "C", "B", "A"]
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let website = "Go";
+// let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
+
+// console.log( words[0+ true+true][0].slice(true+true, true+true+true+true+true+true+true ).toUpperCase()); // ZERO
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+// let myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
+// let num = 3;
+// let num1 = 0;
+
+// // Method 1
+// console.log(myFriends.slice(num1, num)); // ["Ahmed", "Elham", "Osama"];
+
+// // Method 2
+// console.log(myFriends.splice(num1, num)); // ["Ahmed", "Elham", "Osama"];
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// let friends = ["Ahmed", "Eman", "Osama", "Gamal"];
+// let me = friends.splice(1, 2)
+// // Write Your Code Here
+
+// console.log(me); // ["Eman", "Osama"]
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// let arrOne = ["C", "D", "X"];
+// let arrTwo = ["A", "B", "Z"];
+// let finalArr = [];
+
+// // Write One Single Line Of Code
+
+// console.log(finalArr.concat(arrTwo[true+true], arrOne.reverse(), arrTwo[+true], arrTwo[true-true])); // ["Z", "X", "D", "C", "B", "A"]
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let website = "Go";
+// let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
+
+// console.log(words[true+true][0].slice(true+true).toUpperCase()); // ZERO
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let needle = "JS";
+// let haystack = ["PHP", "JS", "Python"];
+
+// // Write 3 Solutions
+// console.log(haystack.includes(needle));
+// console.log(haystack.indexOf(needle));
+// console.log(haystack.lastIndexOf(needle))
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+// let arr1 = ["A", "C", "X"];
+// let arr2 = ["D", "E", "F", "Y"];
+// let allArrs = [];
+
+// let me = allArrs.concat(arr2[2].toLowerCase(), arr1[2].toLowerCase(),arr2[3].toLowerCase()).join("")
+
+// console.log(me); // fxy
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+// let zero = 0;
+// let counter = 3;
+// let my = ["Ahmed", "Mazero", "Elham", "Osama", "Gamal", "Ameer"];
+
+// my = my.slice(zero, counter+true).reverse()
+// console.log(my); // ["Osama", "Elham", "Mazero", "Ahmed"];
+
+
+// console.log(my.slice(-counter ,counter )); // ["Elham", "Mazero"]
+
+// console.log(my[+true ].slice( zero, true+true) + my[true+true].slice(true+true)); // "Elzero"
+
+
+// console.log(my[+true+true].slice(true+true+true+true)); // "rO"
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+// let myAdmins = ["Ahmed", "Osama", "Sayed", "Stop", "Samera"];
+// let myEmployees = ["Amgad", "Soukaona", "Samah", "Ameer", "Omar", "Othman", "Amany", "Samia", "Anwar"];
+
+// let i = 0;
+
+// for(; i<myAdmins.length; i++){
+//     document.write(`<div>`);
+//     if(myAdmins[i] ===  "Stop")break;
+//     document.write(` <hr><br>The Admin For Team ${i+1} Is ${myAdmins[i]} `);
+//     document.write(`<h1>${myAdmins[i]}</h1>`);
+//     for(let j = 0; j<myEmployees.length;j++){
+//         if(myEmployees[j][0] === myAdmins[i][0] ){
+//             document.write( `<h4> - ${myEmployees[j]}</h4>` )
+//         }
+//     }
+//     document.write(`</div>`);
+// }  
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+// let start = 10;
+// let end = 100;
+// let exclude = 40;
+// let i = start
+
+// for(let i = start ; i< end + start;i += start){
+//     if(i == exclude)continue
+//     console.log(i)
+    
+// }
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// let start = 10;
+// let end = 0;
+// let stop = 3;
+
+// for( let i = start ; i>stop-true; i-- ){
+//     if(i< start){
+//         console.log(end.toString()+ i)
+//     }else{
+//         console.log(i.toString())
+//     }
+// }
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let start = 1;
+// let end = 6;
+// let breaker = 2;
+
+// for(let i = start; i<end+start;i++){
+//     console.log(i);
+//     for(j = breaker ;j < end; j+=2){
+//         console.log(`--${j}`)
+//     }
+// }  
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
+// let i = 0;
+// let counter = 0;
+// let j = counter;
+
+// // Output
+// "1 => Sayed"
+// "2 => Mahmoud"
+// for(; i<friends.length ; i++){
+//     if(friends[i][counter] == "A" || typeof friends[i] == "number"){
+//         continue;
+//     }else{
+//         console.log(`"${j+true} => ${friends[i]}"`)
+//     }
+//     j++
+// }
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// function showDetails( ...me){
+
+//     console.log(`hallo ${lastName},Your Age Is ${age}, ${st? "you are available for hire":"you are not available for hire"}`);
+//     console.log(Array.isArray())
+// }
+// showDetails(lastName = "Osama", age = 38, st = true);
+// showDetails(age = 38, lastName = "Osama", st = true);
+// showDetails(st = false, lastName = "Osama", age = 38);
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+// function sayHello(theName, theGender) {
+//     if(theGender == "Male"){
+//         document.write(`Hello MR ${theName} <br>`)
+//     }else if(theGender == "Female"){
+//         document.write(`Hello Miss ${theName}<br>`)
+//     }else {
+//         console.log(`Hello ${theName}`)
+//         document.write(`Hello ${theName}`)
+//     }
+// }
+//   // Needed Output
+//   sayHello("Osama", "Male"); // "Hello Mr Osama"
+//   sayHello("Eman", "Female"); // "Hello Miss Eman"
+//   sayHello("Sameh",); // "Hello Sameh"
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+// function calculate(firstNum, secondNum, operation) {
+// if(secondNum == undefined){
+//     console.log(" Second Number Not Found")
+// }else if(operation == undefined){
+//     console.log(firstNum + secondNum)
+// }else if(operation =='add'){
+//     console.log(firstNum + secondNum)
+// }else if(operation == 'subtract'){
+//     console.log(firstNum - secondNum)
+// }else if(operation == 'multiply'){
+//     console.log(firstNum * secondNum)
+// }
+
+// }
+
+//   // Needed Output
+//   calculate(20); // Second Number Not Found
+//   calculate(20, 30); // 50
+//   calculate(20, 30, 'add'); // 50
+//   calculate(20, 30, 'subtract'); // -10
+//   calculate(20, 30, 'multiply'); // 600
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// function ageInTime(theAge, herAge) {
+    
+//     if(theAge > 100 || theAge < 10){
+//         document.write(`Age Out Of Range <br>`)
+//     }else{
+//         document.write(`your age at months is : ${theAge * 12} Month. <br> your age at week is : ${theAge * 52} Week. <br>  your age at days is : ${theAge * 365} Day.<br>  your age at hours is : ${theAge * 8760} Hour.<br> your age at minutes is : ${theAge * 525600} Minute.<br> your age at seconds is : ${theAge * 31536000} Second.`)
+//     }
+// }
+
+  // Needed Output
+//   ageInTime(110); // Age Out Of Range
+// ageInTime(23)
+// let d = new Date()
+// let your = d.getFullYear()
+// let age = your - 1990;
+// console.log(age)
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// function createSelectBox(startYear, endYear) {
+//   document.write(`<select>`)
+//   for( let i = startYear; i <= endYear; i++){
+//     document.write(`<option value="${i}">${i}</option>`)
+//   }
+//   document.write(`</select>`)
+// }
+// createSelectBox(2000, 2021);
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// }
+// function multiply(a, b, c){
+//   if(typeof a == "number" && typeof b == "number"){
+//     console.log(Math.floor(a) *  Math.floor(b))
+//   }else if(typeof a =="string" || typeof b == "string" || typeof c == "string"){
+//     if( typeof a == "string") a = c;
+//     if( typeof b == "string") b = c;
+//     if( typeof c == "string") c = c;
+//     console.log(a*b)
+//   }
+// }
+// multiply(10, 20); // 200
+// multiply("A", 10, 30); // 300
+// multiply(100.5, 10, "B"); // 1000
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let names = function (a, b, c, d ) {
+//   return `String [${a}], [${b}], [${c}], [${d}] => Done !`;
+// }
+
+
+
+// let names =  (a, b, c, d ) => `String [${a}], [${b}], [${c}], [${d}] => Done !`;
+
+
+// console.log(names("Osama", "Mohamed", "Ali", "Ibrahim"));
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+let myNumbers = [20, 50, 10, 60]
+nums = myNumbers[1]
+let calc =(one, two, ...nums) => one + two + nums[0];
+
+console.log(calc(10 , myNumbers[0],  myNumbers[1]))
